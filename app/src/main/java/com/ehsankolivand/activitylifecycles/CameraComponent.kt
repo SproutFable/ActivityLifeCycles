@@ -13,7 +13,7 @@ class CameraComponent: LifecycleEventObserver {
     }
 
 
-    
+
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
     fun initializeCamera(){
         // do something
